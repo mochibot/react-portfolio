@@ -16,7 +16,7 @@ const App = () => {
       <Switch>
         <Route exact path='/' render={(props) => <Home {...props} background={background} />}/>
         <Route path='/about' render={(props) => <About {...props} background={background} />}/>
-        <Route path='/portfolio' render={(props) => <Portfolio {...props} background={background} />}/>
+        <Route exact path='/portfolio' render={(props) => <Portfolio {...props} background={background} />}/>
         <Route path='/connect' render={(props) => <Connect {...props} background={background} />}/>
       </Switch>
     </div>
