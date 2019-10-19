@@ -1,0 +1,122 @@
+.app {
+  background: #ECDFDC;
+  margin: 3% 10% 0 10%;
+  height: 550px;
+  -webkit-box-shadow: -20px -20px 60px 5px rgba(48, 48, 48, 0.57), 20px 20px #AC938E;
+  -moz-box-shadow: -20px -20px 60px 5px rgba(48, 48, 48, 0.57), 20px 20px #AC938E;
+  box-shadow: -20px -20px 60px 5px rgba(48, 48, 48, 0.57), 20px 20px #AC938E;
+}
+
+.navbar {
+  width: 80%;
+  padding: 1rem;
+  background: transparent;
+  position: fixed;
+  display: flex; 
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    width: 30px;
+    margin-right: 2rem;
+  }
+
+  a {
+    color: #3A3335;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+
+  h1 {
+    font-size: 3.4rem;
+  }
+
+  p {
+    margin: 1.5rem;
+    font-size: 1.3rem;
+    color: rgb(114, 114, 114);
+  }
+
+  button {
+    margin-top: 5rem;
+    background: #AC938E;
+    border: 1px solid #AC938E;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+
+  .about-text {
+    width: 70%;
+    margin: 1rem;
+
+    h2 {
+      margin: 1rem;
+    }
+  }
+
+  .about-tech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+
+    .icon-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      img {
+        width: 40px;
+        margin: 0.5rem;
+      }
+
+      #firebase {
+        width: 30px;
+      }
+    }
+  }
+
+  button {
+    background: #AC938E;
+    border: 1px solid #AC938E;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
