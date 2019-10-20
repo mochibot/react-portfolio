@@ -23,7 +23,7 @@ const App = () => {
           <Route path='/:other' render={(props) => <NotFound {...props} background={background} />}/>
         </Switch>
       </div>
-      <div className='footer'>© 2019 All rights reserved | Designed and built by: <a href='https://github.com/mochibot/react-portfolio' target='_blank'>Penny Lee</a></div> 
+      <div className='footer'>© 2019 All rights reserved | Designed and built by: <a href='https://github.com/mochibot/react-portfolio' target='_blank' rel='noopener noreferrer'>Penny Lee</a></div> 
     </>
   );
 }

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFolder } from '@fortawesome/free-solid-svg-icons';
 import cssIcon from '../assets/tech-stack/css3-plain.svg';
 import d3Icon from '../assets/tech-stack/d3js-plain.svg';
 import expressIcon from '../assets/tech-stack/express-original.svg';
@@ -60,7 +62,12 @@ const About = (props) => {
             <img src={rubyIcon} alt='Ruby' title='Ruby'/>
           </div>
       </div>
-      <button><Link to='/portfolio'>Check out my portfolio</Link></button>
+      <Link to='/portfolio'>
+        <button>
+          <FontAwesomeIcon icon={faFolder} size='lg'/>
+          <span>Check out my portfolio</span>
+        </button>
+      </Link>
     </div>
   )
 }

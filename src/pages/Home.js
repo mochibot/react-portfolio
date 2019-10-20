@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPortrait } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 const Home = (props) => {
@@ -12,7 +14,12 @@ const Home = (props) => {
       }}>
       <h1>Penny Lee</h1>
       <p>| Full-stack developer | Clinical Research Associate | Immunologist |</p>
-      <button><Link to='/about'>Get to know me</Link></button>
+      <Link to='/about'>
+        <button>
+          <FontAwesomeIcon icon={faPortrait} size='lg'/>
+          <span>Get to know me</span>
+        </button>
+      </Link>
     </div>
   )
 }

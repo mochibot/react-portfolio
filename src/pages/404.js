@@ -15,7 +15,6 @@ const NotFound = (props) => {
       }}>
       <FontAwesomeIcon icon={faDizzy} size='8x'/>
       <h4>Oops...the page you are trying to reach does not exist</h4>
-      
       <Link to='/'>
         <button>
           <FontAwesomeIcon icon={faHome} size='lg'/>

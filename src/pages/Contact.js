@@ -46,7 +46,7 @@ const Contact = (props) => {
       <div className='contact-icons'>
         {links.map(link => (
           <div className='icon'>
-            <a href={link.url} target='_blank'>
+            <a href={link.url} target='_blank' rel='noopener noreferrer'>
               <FontAwesomeIcon icon={link.icon} size="3x"/>
             </a>
             <p>{link.name}</p>

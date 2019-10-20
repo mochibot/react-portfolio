@@ -23,8 +23,8 @@ const Project = (props) => {
           <p>{description}</p>
           <p>Tech stack: {techStack}</p>
           <div className='project-btn'>
-            <button><a href={url}>Live</a></button>
-            <button><a href={code}>Code</a></button>
+            <button><a href={url} target='_blank' rel='noopener noreferrer'>Live</a></button>
+            <button><a href={code} target='_blank' rel='noopener noreferrer'>Code</a></button>
           </div>
         </>
       )}
