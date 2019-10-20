@@ -33,6 +33,17 @@
   }
 }
 
+.footer {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 1.4rem;
+  color: #9B9899;
+
+  a {
+    color: #9B9899;
+  }
+}
+
 .home {
   height: 100%;
   width: 100%;
@@ -214,4 +225,86 @@
 /* Handle on hover */
 .portfolio::-webkit-scrollbar-thumb:hover {
   background: rgb(119, 115, 117);  
+}
+
+.contact {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+
+  &-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    width: 100%;
+
+    a {
+      color: #AC938E;
+      width: 36px;
+      cursor: pointer;
+      margin: 0 1.5rem;
+
+      :hover {
+        color: #9B9899;
+      }
+    }
+
+    p {
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin: 0.4rem 0;
+    }
+  }
+}
+
+.not-found {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+
+  h4 {
+    font-size: 1.4rem;
+    margin: 2rem 0;
+  }
+
+  a {
+    button {
+      margin-top: 2rem;
+      border: 2px solid #AC938E;
+      background: transparent;
+      color: #AC938E;
+      border-radius: 5px;
+      padding: 0.6rem;
+      cursor: pointer;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.8);
+      }
+
+      span {
+        margin-left: 0.4rem;
+        font-weight: 600;
+      }
+    }
+  }
 }

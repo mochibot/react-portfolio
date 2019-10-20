@@ -16,7 +16,7 @@ const Project = (props) => {
           {role && <p>{role.toUpperCase()}</p>}
         </div>
       </div>
-      <img src={image}/>
+      <img src={image} alt={title}/>
       <button onClick={toggle}>more</button>
       {open && (
         <>
