@@ -68,15 +68,16 @@
     margin-top: 2rem;
 
     button {  
-      border: 2px solid #AC938E;
-      background: rgba(255, 255, 255, 0.8);
-      color: #AC938E;
+      border: 2px solid #7A5565;
+      background: #7A5565;
+      color: rgba(255, 255, 255, 0.8);
       border-radius: 5px;
       padding: 0.6rem;
       cursor: pointer;
 
       &:hover {
         background: transparent;
+        color: #7A5565;
       }
 
       span {
@@ -137,15 +138,16 @@
     margin-top: 1rem;
 
     button {  
-      border: 2px solid #AC938E;
-      background: rgba(255, 255, 255, 0.8);
-      color: #AC938E;
+      border: 2px solid #7A5565;
+      background: #7A5565;
+      color: rgba(255, 255, 255, 0.8);
       border-radius: 5px;
       padding: 0.6rem;
       cursor: pointer;
 
       &:hover {
         background: transparent;
+        color: #7A5565;
       }
 
       span {
@@ -209,21 +211,42 @@
           margin: 0 0.4rem;
         }
       }
+      
+      &-text {
+        align-self: center;
+        width: 90%;
+        margin: 0.4rem 0;
+        min-height: 120px;
+      }
 
       &-btn {
         display: flex;
         justify-content: center;
 
-        button {
-          background: #AC938E;
-          border: 1px solid #AC938E;
-          padding: 0.4rem 0.6rem;
-          border-radius: 5px;
-          margin: 1rem;
+        a {
+
+          .fa-sm {
+            font-size: 1rem;
+          }
       
-          a {
-            color: white;
-            text-decoration: none;
+          button {  
+            border: 2px solid #AC938E;
+            background: #AC938E;
+            color: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+            padding: 0.2rem 0.5rem;
+            margin: 0.2rem 1rem 0.8rem 1rem;
+            cursor: pointer;
+      
+            &:hover {
+              background: transparent;
+              color: #AC938E;
+            }
+      
+            span {
+              margin-left: 0.4rem;
+              font-weight: 600;
+            }
           }
         }
       }
@@ -315,15 +338,16 @@
     margin-top: 2rem;
 
     button {  
-      border: 2px solid #AC938E;
-      background: rgba(255, 255, 255, 0.8);
-      color: #AC938E;
+      border: 2px solid #7A5565;
+      background: #7A5565;
+      color: rgba(255, 255, 255, 0.8);
       border-radius: 5px;
       padding: 0.6rem;
       cursor: pointer;
 
       &:hover {
-        background: transparent; 
+        background: transparent;
+        color: #7A5565;
       }
 
       span {
