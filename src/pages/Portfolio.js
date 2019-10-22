@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAt } from '@fortawesome/free-solid-svg-icons';
 import { projects } from '../data/projects';
 import Project from '../components/Project';
 
@@ -17,6 +20,12 @@ const Portfolio = (props) => {
       <div className='projects'>
         {projects.map((project, index) => <Project key={index} project={project}/>)}
       </div>
+      <Link to='/contact'>
+        <button>
+          <FontAwesomeIcon icon={faAt} size='lg'/>
+          <span>Connect with me</span>
+        </button>
+      </Link>
     </div>
   )
 }
