@@ -16,10 +16,10 @@ const NavBar = () => {
         {isOpen ? (
           <>
             <FontAwesomeIcon onClick={() => setIsOpen(false)} icon={faTimes} size='3x'/>
-            <Link to='/'><FontAwesomeIcon icon={faHome} size='lg'/>HOME</Link>
-            <Link to='/about'><FontAwesomeIcon icon={faUser} size='lg'/>ABOUT</Link>
-            <Link to='/portfolio'><FontAwesomeIcon icon={faFolder} size='lg'/>PORTFOLIO</Link>
-            <Link to='/contact'><FontAwesomeIcon icon={faAt} size='lg'/>CONTACT</Link>
+            <Link to='/'>HOME<FontAwesomeIcon icon={faHome} size='lg'/></Link>
+            <Link to='/about'>ABOUT<FontAwesomeIcon icon={faUser} size='lg'/></Link>
+            <Link to='/portfolio'>PORTFOLIO<FontAwesomeIcon icon={faFolder} size='lg'/></Link>
+            <Link to='/contact'>CONTACT<FontAwesomeIcon icon={faAt} size='lg'/></Link>
           </>
         ) : (
           <FontAwesomeIcon onClick={() => setIsOpen(true)} icon={faBars} size='3x'/>
