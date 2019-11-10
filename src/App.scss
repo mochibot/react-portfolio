@@ -260,6 +260,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 0.2rem 0;
+        font-size: 1.2rem;
       }
 
       img {
@@ -274,6 +276,7 @@
         display: flex;
         justify-content: center;
         margin: 0.4rem;
+        font-size: 0.8rem;
 
         p {
           color: #9B9899;
@@ -295,7 +298,6 @@
         justify-content: center;
 
         a {
-
           .fa-sm {
             font-size: 1rem;
           }
@@ -305,8 +307,8 @@
             background: #AC938E;
             color: white;
             border-radius: 5px;
-            padding: 0.2rem 0.5rem;
-            margin: 0.2rem 1rem 0.8rem 1rem;
+            padding: 0.3rem 0.6rem;
+            margin: 0rem 1.6rem 0.8rem 1.6rem;
             cursor: pointer;
       
             &:hover {

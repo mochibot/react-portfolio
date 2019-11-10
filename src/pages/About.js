@@ -40,7 +40,7 @@ const About = (props) => {
           <img src={htmlIcon} alt='HTML' title='HTML'/>
           <img src={cssIcon} alt='CSS' title='CSS'/>
           <img src={sassIcon} alt='SASS' title='SASS'/>
-          <img src={javascriptIcon} alt='JavaScript'title='JavaScript'/>
+          <img src={javascriptIcon} alt='JavaScript' title='JavaScript'/>
           <img src={reactIcon} alt='React' title='React'/>
           <img src={reduxIcon} alt='Redux' title='Redux'/>
           <img src={nodeIcon} alt='Node' title='Node'/>
@@ -53,13 +53,14 @@ const About = (props) => {
             <img src={jqueryIcon} alt='jQuery' title='jQuery'/>
             <img src={monogoDbIcon} alt='MongoDB' title='MongoDB'/>
             <img id='firebase' src={firebaseIcon} alt='Firebase' title='Firebase'/>
+            <img src={pythonIcon} alt='Python' title='Python'/>
           </div>
         <h4>What I plan to learn</h4>
           <div className='icon-row'>
             <img src={javaIcon} alt='Java' title='Java'/>
-            <img src={pythonIcon} alt='Python' title='Python'/>
             <img src={goIcon} alt='Golang' title='Golang'/>
             <img src={rubyIcon} alt='Ruby' title='Ruby'/>
+            <p>plus many more....</p>
           </div>
       </div>
       <Link to='/portfolio'>
